@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+	line-height: 20px;
+    background-color: #FAFAFA;
+}
+
+*:focus {
+    outline: none !important;
+}
+
+.container {
+    border-radius: 7px;
+    
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 300px;
+    background-color: #171D37;
+}
+
+.header {
+    border-radius: 7px 7px 0px 0px;
+    
+    padding: 20px 10px;
+    
+    color: white;
+    background-color: #DE3F53;
+    text-transform: uppercase;
+}
+
+.noItems {
+    color: #4A5B65;
+    padding: 10px 10px;
+    text-align: center;
+}
+
+.items {
+    padding: 1px;
+}
+
+.item {
+    display: flex;
+    flex: 1;
+    
+    background-color: #262E4C;
+    margin: 3px;
+    padding: 10px;
+}
+
+.item:hover {
+    background-color: #2A3353;
+    cursor: pointer;
+}
+
+.itemValue, .itemValueCrossed {
+    display: flex;
+    flex: 1;
+    
+    color: #B1B2C9;
+}
+
+.itemValueCrossed {
+    text-decoration: line-through;
+}
+
+.removeItemButton {
+    width: 20px;
+    height: 20px;
+    
+    color: white;
+    font-weight: bold;
+    border: none;
+    background-color: #DE3F53;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.removeItemButton:hover {
+    background-color: #e35c6d;
+}
+
+.inputField {
+    border-radius: 7px;
+    
+    padding: 20px 10px;
+    width: 300px;
+    
+    color: white;
+    border: none;
+    background-color: transparent;
+}
+
+::placeholder {
+    color: #465179;
+}
